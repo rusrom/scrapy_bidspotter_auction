@@ -1,4 +1,4 @@
-# Scrapy spider with custom filenames of images<br/>Download images on AWS S3
+# Scrapy spider with custom filenames for images<br/>Download images on AWS S3
 
 Spider has 1 input argumet: **auction URL**
 
