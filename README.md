@@ -32,4 +32,4 @@ For each auction on AWS S3 folder will be created with corresponding name
 Filenames for 5 images of lot number 1:  
 1_1.jpg, 1_2.jpg, 1_3.jpg, 1_4.jpg, 1_5.jpg
 
-![lot_photos](https://i.imgur.com/tYQZfbv.jpg)
+![lot_photos](https://i.imgur.com/pp6DLUb.jpg)
