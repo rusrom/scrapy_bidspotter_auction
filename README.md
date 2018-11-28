@@ -4,11 +4,11 @@ Spider has 1 input argumet: **auction URL**
 
 ![argument](https://i.imgur.com/RZn6l1V.jpg)
 
-All lots are scraping with ONLY 1 REQUEST with usings some headers and cookies trick.
+**_All lots are scraping with ONLY 1 REQUEST_** with usings some headers and cookies trick.
 
 ![pages](https://i.imgur.com/oG3xtK1.png)
 
-**_Scrape such fields:_**
+### Scrape such fields
 1. Lot number
 2. Lot title
 3. Lot description
@@ -16,7 +16,15 @@ All lots are scraping with ONLY 1 REQUEST with usings some headers and cookies t
 
 ![bidspotter](https://i.imgur.com/iAMLYmH.png)
 
-**_Rule for images names:_**
+### Path for saving images
+Each auction URL has **catalogue-id**  
+![argument](https://i.imgur.com/RZn6l1V.jpg)
+
+For each auction on AWS S3 folder will be created with corresponding name
+
+![aws](https://i.imgur.com/gHsGHVz.jpg)
+
+### Rule for images names
 * 1st digit - lot number
 * 2nd digit - image index
 * All images need download on Amazon S3
